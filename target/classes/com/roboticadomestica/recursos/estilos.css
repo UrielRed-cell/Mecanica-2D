@@ -1,0 +1,80 @@
+/* Estilos globales */
+.root {
+    -fx-font-family: Arial, sans-serif;
+    -fx-font-size: 14px;
+}
+
+/* Estilos para el BorderPane */
+BorderPane {
+    -fx-background-color: #f2f2f2;
+}
+
+/* Estilos para los VBox */
+VBox {
+    -fx-spacing: 5px;
+    -fx-padding: 5px;
+}
+
+/* Estilos para los HBox */
+HBox {
+    -fx-spacing: 5px;
+    -fx-alignment: center;
+}
+
+/* Estilos para los botones */
+Button {
+    -fx-background-color: #e5e5e5;
+    -fx-text-fill: #333;
+    -fx-padding: 2px 5px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-border-color: #ccc;
+    -fx-border-width: 1px;
+}
+
+Button:hover {
+    -fx-background-color: #d5d5d5;
+}
+
+/* Estilos para el bottom */
+#hBoxBottom {
+    -fx-background-color: #f0f0f0;
+    -fx-padding: 10px;
+    -fx-border-color: #ddd;
+    -fx-border-width: 1px;
+    -fx-alignment: center;
+    -fx-pref-height: 50px;
+}
+
+/* Estilos para el menú */
+#vBoxMenu {
+    -fx-background-color: #f9f9f9;
+    -fx-padding: 10px;
+    -fx-border-color: #ddd;
+    -fx-border-width: 1px;
+    -fx-alignment: top-left;
+}
+
+TextField {
+    -fx-padding: 2px 5px;
+    -fx-font-size: 12px;
+    -fx-background-color: #fff;
+    -fx-border-color: #ccc;
+    -fx-border-width: 1px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-pref-height: 100px;
+
+}
+
+#hBoxBottom {
+    -fx-padding: 5px;
+    -fx-spacing: 5px;
+    -fx-pref-height: 150px;
+}
+#lbSeparador {
+    -fx-background-color: #666;
+    -fx-pref-height: 5px;
+    -fx-pref-width: 100%;
+    -fx-text-fill: transparent;
+}
